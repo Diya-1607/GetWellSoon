@@ -1,3 +1,52 @@
 @import "tailwindcss";
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
+/* Wiggle animation */
+/* Wiggle animation */
+/* Wiggle animations */
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-5deg); }
+  50% { transform: rotate(5deg); }
+}
+.custom-wiggle {
+  animation: wiggle 1s ease-in-out infinite;
+}
+.custom-wiggle-delay {
+  animation: wiggle 1.3s ease-in-out infinite;
+}
+
+/* Bounce heading */
+@keyframes bounce {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.bounce {
+  animation: bounce 2s ease-in-out infinite;
+}
+
+/* Slide-up */
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.slide-up {
+  animation: slideUp 0.7s ease-out forwards;
+}
+
+/* Zoom-in */
+@keyframes zoomIn {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+.zoom-in {
+  animation: zoomIn 0.6s ease-out forwards;
+}
+
+/* Fade-in-up */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
