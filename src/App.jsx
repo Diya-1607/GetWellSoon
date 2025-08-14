@@ -47,9 +47,13 @@ function App() {
       </button>
 
       {/* Heading */}
-      <h1 className="text-center text-3xl sm:text-5xl font-extrabold text-pink-600 drop-shadow-2xl bounce mb-2 tracking-wide px-4">
-        🌸 Get Well Soon <span className="text-purple-500">Sangyaaaa</span> 🌸
-      </h1>
+    <h1
+  className="text-center text-3xl sm:text-5xl font-extrabold text-pink-600 drop-shadow-2xl bounce mb-2 tracking-wide px-4"
+  style={{ fontFamily: "'Pacifico', cursive" }}
+>
+  🌸 Get Well Soon <span className="text-purple-500">Sangyaaaa</span> 🌸
+</h1>
+
 
       {/* Subheading */}
       <p className="mt-1 text-center text-sm sm:text-base text-gray-700 max-w-xl leading-relaxed fade-in-up px-2">
